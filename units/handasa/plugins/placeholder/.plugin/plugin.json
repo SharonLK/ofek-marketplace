@@ -1,0 +1,7 @@
+{
+  "name": "placeholder",
+  "displayName": "Placeholder Skill",
+  "version": "1.0.0",
+  "description": "Handasa unit plugins",
+  "skills": "./skills/"
+}

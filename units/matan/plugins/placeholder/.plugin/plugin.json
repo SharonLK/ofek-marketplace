@@ -1,0 +1,7 @@
+{
+  "name": "placeholder",
+  "displayName": "Placeholder Skill",
+  "version": "1.0.0",
+  "description": "Matan unit plugins",
+  "skills": "./skills/"
+}
