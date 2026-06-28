@@ -32,6 +32,20 @@ Each plugin must follow this exact structure:
 
 - Common plugins (shared across the org) live under `common/plugins/`
 - Unit-specific plugins live under `units/<UNIT_NAME>/plugins/`
+- New units start with a `placeholder` plugin in their plugins directory
 - The `.plugin/` directory should contain only `plugin.json`
 - Skills reference their parent plugin via the `skills` field in `plugin.json`
 - Each skill should have a descriptive `description` in its frontmatter
+
+## Current plugins
+
+### common/plugins/
+
+| Plugin       | Skills         |
+|--------------|----------------|
+| `code-review` | `code-review`  |
+| `grill-me`   | `grill-me`     |
+
+### units/*/plugins/
+
+Each unit has a `placeholder` plugin (with a `placeholder` skill).

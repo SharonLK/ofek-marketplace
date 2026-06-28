@@ -7,6 +7,31 @@ OpenCode plugins and skills for the Ofek organization.
 - **`common/plugins/`** — Plugins shared across the entire organization.
 - **`units/<UNIT_NAME>/plugins/`** — Unit-specific plugins.
 
+## Plugins
+
+### Common
+
+| Plugin       | Skills         |
+|--------------|----------------|
+| `code-review` | `code-review`  |
+| `grill-me`   | `grill-me`     |
+
+### Units
+
+Each unit has a `placeholder` plugin by default.
+
+| Unit       |
+|------------|
+| `handasa`  |
+| `maam`     |
+| `maat`     |
+| `maav`     |
+| `mahan`    |
+| `matan`    |
+| `matas`    |
+| `mate`     |
+| `tashtiot` |
+
 ## Plugin anatomy
 
 ```
@@ -15,17 +40,3 @@ OpenCode plugins and skills for the Ofek organization.
 └── skills/<SKILL_NAME>/
     └── SKILL.md              # Skill definition
 ```
-
-## Units
-
-| Unit       | Description         |
-|------------|---------------------|
-| `handasa`  | Engineering         |
-| `maam`     | Unit maam           |
-| `maat`     | Unit maat           |
-| `maav`     | Unit maav           |
-| `mahan`    | Unit mahan          |
-| `matan`    | Unit matan          |
-| `matas`    | Unit matas          |
-| `mate`     | Unit mate           |
-| `tashtiot` | Unit tashtiot       |
